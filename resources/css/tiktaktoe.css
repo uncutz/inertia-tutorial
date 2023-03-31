@@ -1,0 +1,19 @@
+body {
+    background-color: #1a202c;
+}
+
+.square {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    color: white;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.board .row {
+    display: flex;
+}
